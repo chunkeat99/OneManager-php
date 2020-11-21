@@ -2059,7 +2059,7 @@ function render_list($path = '', $files = '')
     }
     if ( $theme=='' ) {
         $theme = getConfig('theme');
-        if ( $theme=='' || !file_exists(__DIR__ . $slash .'theme' . $slash . $theme) ) $theme = 'classic.html';
+        if ( $theme=='' || !file_exists(__DIR__ . $slash .'theme' . $slash . $theme) ) $theme = 'idiot.html';
     }
     if (substr($theme,-4)=='.php') {
         @ob_start();
