@@ -24,7 +24,7 @@ $Base64Env = [
     'backgroundm',
     'diskname',
     //'disableShowThumb',
-    //'disableChangeTheme',
+    'disableChangeTheme',
     //'disktag',
     //'downloadencrypt',
     //'function_name', // used in heroku.
